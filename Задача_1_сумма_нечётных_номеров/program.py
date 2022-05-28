@@ -1,5 +1,5 @@
-#Найти сумму чисел списка стоящих на нечетной позиции
-#Пример:[1,2,3,4] -> 4
+# Найти сумму чисел списка стоящих на нечетной позиции
+# Пример:[1,2,3,4] -> 4
 
 
 def SumOfOddPositions(list):
@@ -9,6 +9,6 @@ def SumOfOddPositions(list):
     return sum
 
 
-listUser = [1,2,3,4, 5]
+listUser = [1, 2, 3, 4, 5]
 sumUser = SumOfOddPositions(listUser)
 print(f"Сумма чисел списка, стоящих на нечетной позиции, равна: {sumUser}")
